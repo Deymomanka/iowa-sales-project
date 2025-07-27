@@ -5,7 +5,7 @@
 Notebookのコードを併せてご参照ください。  
 モデルの精度や予測結果は、以下の Streamlit アプリで確認いただけます。
 
-**[Streamlit アプリはこちら](https://your-streamlit-app-url.com)**
+**[Streamlit アプリはこちら](https://iowa-sales-project.streamlit.app/)**
 
 ---
 
