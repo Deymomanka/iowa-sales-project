@@ -48,15 +48,16 @@ Notebookのコードを併せてご参照ください。
 
 .
 ├── notebooks/
-│   └── 最新版.ipynb                      # モデル構築・評価までのノートブック
+│   └── 最新版.ipynb                # モデル構築・評価までのノートブック
 ├── streamlit_app/
-│   ├── app.py                          # Streamlit エントリーポイント
-│   ├── overview.py                     # 共通情報・データ概要の表示
-│   ├── model_eval.py                   # 各モデルの評価ページ
-│   ├── comparison.py                   # モデル間比較用ページ
-│   ├── f_importance.py                 # 特徴量重要度の可視化
-│   ├── conclusion.py                   # 考察・今後の展望まとめ
-│   └── utils.py                        # 補助関数（BigQuery接続など）
+│   ├── app.py                     # Streamlit エントリーポイント
+│   ├── overview.py                # 共通情報・データ概要の表示
+│   ├── model_eval.py              # 各モデルの評価ページ
+│   ├── comparison.py              # モデル間比較用ページ
+│   ├── f_importance.py            # 特徴量重要度の可視化
+│   ├── conclusion.py              # 考察・今後の展望まとめ
+│   └── utils.py                   # 補助関数（BigQuery接続など）
 ├── README.md
-└── requirements.txt                   # 使用ライブラリ一覧
+└── requirements.txt              # 使用ライブラリ一覧
+
 
