@@ -48,9 +48,9 @@ Notebookのコードを併せてご参照ください。
 
 ```
 .
-├── notebooks/
+├── Notebook/
 │   └── 最新版.ipynb              # モデル構築・評価までのノートブック
-├── streamlit_app/
+├── app/
 │   ├── app.py                   # Streamlit エントリーポイント
 │   ├── overview.py              # 共通情報・データ概要の表示
 │   ├── model_eval.py            # 各モデルの評価ページ
@@ -59,6 +59,7 @@ Notebookのコードを併せてご参照ください。
 │   ├── conclusion.py            # 考察・今後の展望まとめ
 │   └── utils.py                 # 補助関数（BigQuery接続など）
 ├── README.md
+├── .gitignore
 └── requirements.txt            # 使用ライブラリ一覧
 ```
 
